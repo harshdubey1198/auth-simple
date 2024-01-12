@@ -1,54 +1,100 @@
-/* SignIn.css */
 .body-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
 .sign-in-container {
-    padding: 30px;
-    width: 250px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color:floralwhite;
-  }
-  h5 {
-    text-align: end;
-    color:aliceblue;
-  }
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  input {
-    margin-bottom: 18px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1em;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+  padding: 30px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+  /* background-color: rgba(75, 71, 71, 0.5); Adjust the background color and transparency as needed */
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: rgb(255, 0, 123);
+}
+
+h5 {
+  text-align: end;
+  color: aliceblue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.button-login {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.button-login:hover {
+  background-color: #0056b3;
+}
+
+.Social{
+  display:flex;
+  place-content: center;
+  gap:20px;
+}
+.Google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  color: #685e5e;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.Google-button:hover {
+  background-color: #eaeaea;
+}
+.Google-button > svg {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
+.Facebook-button {
+  background-color: #2063f3;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.Facebook-button:hover {
+  background-color: #3660bb;
+}
+.Facebook-button > svg {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
